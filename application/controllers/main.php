@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 
-class Login extends CI_Controller {
+class Main extends CI_Controller {
 
 
 
@@ -10,11 +10,11 @@ class Login extends CI_Controller {
 		$this->load->view('login');
 	}
 
-	
 
 	function home(){
 
 		$this->load->view('home');
 	}
+	
 }
 
